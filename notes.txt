@@ -1,0 +1,11 @@
+created the dataframes for all the 3 csv files
+drop columns of all the 3 dataframes that have empty values more than 50% in train data set
+drop columns with single unique values in train data set, in all 3 data sets
+
+find the number of unique values of categorical data of train data set
+drop the columns with significantly higher number of unique values 
+and that may not contribute for the prediction by inspection in train data set, in all 3 data sets
+
+find the null counts of each column in train data set
+drop rows that corresponds to the same number of missing values in 10+ columns
+ONLY IN TRAIN DATA SET
